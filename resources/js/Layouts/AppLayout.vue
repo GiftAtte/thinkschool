@@ -158,13 +158,13 @@
           </li>
 
             <li class="nav-item">
-            <a :href="route('students')" class="nav-link">
+            <inertia-link href="/students" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                Student
                 <span class="right badge badge-danger">New</span>
               </p>
-            </a>
+            </inertia-link >
           </li>
           </ul>
         </nav>
